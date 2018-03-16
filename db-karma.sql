@@ -1154,7 +1154,7 @@ REPLACE INTO `ciudad` (`id`, `id_departamento`, `nombre`) VALUES
 -- Volcando estructura para tabla karma.concursante
 CREATE TABLE IF NOT EXISTS `concursante` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `fecha_creacion` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `fecha_creacion` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   `nombre` varchar(100) NOT NULL,
   `apellido` varchar(100) NOT NULL,
   `cedula` varchar(20) NOT NULL,
